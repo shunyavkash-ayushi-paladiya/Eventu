@@ -1,0 +1,37 @@
+@media screen and (max-width:1024px){
+    ul{
+        display: none;
+    }
+
+    .header-main{
+        display: none;
+    }
+
+    .menu{
+        display: block;
+    }
+}
+
+@media screen and (max-width:575px){
+    .reports-content{
+        width: 100%;
+        max-width: none;
+    }
+
+    .header-logo img{
+        width: 150px;
+    }
+
+    .report-desc{
+        max-width: none;
+    }
+
+    .header-search{
+        display: none;
+    }
+
+    .reports-contents{
+        width: 100%;
+        max-width: none;
+    }
+}

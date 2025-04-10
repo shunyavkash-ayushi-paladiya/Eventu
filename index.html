@@ -1,12 +1,528 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="stylesheet" href="assests/css/main.css">
 </head>
+
 <body>
-    
+    <!-- Header section  -->
+    <header>
+        <div class="header-main">
+            <div class="container">
+                <div class="header-inner">
+                    <div class="header-left">
+                        <a href="https://maps.app.goo.gl/rfcULCW4pJNMqU5F7" class="header-map" target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round"
+                                class="icon icon-tabler icons-tabler-outline icon-tabler-map-pin">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
+                                <path
+                                    d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
+                            </svg>
+                            <h5 class="header-map-title"> 25/B Milford Road, New York </h5>
+                        </a>
+                        <a href="mailto:info@example.com" class="header-mail">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-mail">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <path
+                                    d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z" />
+                                <path d="M3 7l9 6l9 -6" />
+                            </svg>
+                            <h5 class="header-mail-title">
+                                info@example.com
+                            </h5>
+                        </a>
+                        <a href="tel: +2 123 654 7898" class="header-phone">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round"
+                                class="icon icon-tabler icons-tabler-outline icon-tabler-phone-call">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <path
+                                    d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
+                                <path d="M15 7a2 2 0 0 1 2 2" />
+                                <path d="M15 3a6 6 0 0 1 6 6" />
+                            </svg>
+                            <h5 class="header-phone-title">
+                                +2 123 654 7898
+                            </h5>
+                        </a>
+                    </div>
+                    <div class="header-right">
+                        <div class="header-lang">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-world">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
+                                <path d="M3.6 9h16.8" />
+                                <path d="M3.6 15h16.8" />
+                                <path d="M11.5 3a17 17 0 0 0 0 18" />
+                                <path d="M12.5 3a17 17 0 0 1 0 18" />
+                            </svg>
+                            <select name="" id="">
+                                <option value="">Langauge</option>
+                                <option value="English">English</option>
+                                <option value="German">German</option>
+                                <option value="Russian">Russian</option>
+                                <option value="Spanish">Spanish</option>
+                            </select>
+                        </div>
+                        <div class="header-follow">
+                            <h5 class="header-follow-title">
+                                Follow Us:
+                            </h5>
+                            <a href="https://www.facebook.com/" class="header-facebook">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    class="icon icon-tabler icons-tabler-outline icon-tabler-brand-facebook">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path
+                                        d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
+                                </svg>
+                            </a>
+                            <a href="https://x.com/?lang=en" class="header-twitter">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    class="icon icon-tabler icons-tabler-outline icon-tabler-brand-x">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path d="M4 4l11.733 16h4.267l-11.733 -16z" />
+                                    <path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772" />
+                                </svg>
+                            </a>
+                            <a href="https://www.instagram.com/accounts/login/?hl=en" class="header-instagram">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    class="icon icon-tabler icons-tabler-outline icon-tabler-brand-instagram">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path
+                                        d="M4 8a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" />
+                                    <path d="M9 12a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
+                                    <path d="M16.5 7.5v.01" />
+                                </svg>
+                            </a>
+                            <a href="https://in.linkedin.com/" class="header-linkedin">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="currentColor"
+                                    class="icon icon-tabler icons-tabler-filled icon-tabler-brand-linkedin">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path
+                                        d="M17 2a5 5 0 0 1 5 5v10a5 5 0 0 1 -5 5h-10a5 5 0 0 1 -5 -5v-10a5 5 0 0 1 5 -5zm-9 8a1 1 0 0 0 -1 1v5a1 1 0 0 0 2 0v-5a1 1 0 0 0 -1 -1m6 0a3 3 0 0 0 -1.168 .236l-.125 .057a1 1 0 0 0 -1.707 .707v5a1 1 0 0 0 2 0v-3a1 1 0 0 1 2 0v3a1 1 0 0 0 2 0v-3a3 3 0 0 0 -3 -3m-6 -3a1 1 0 0 0 -.993 .883l-.007 .127a1 1 0 0 0 1.993 .117l.007 -.127a1 1 0 0 0 -1 -1" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-bottom">
+            <div class="container">
+                <div class="header-inner">
+                    <div class="header-logo">
+                        <img src="assests/images/logo/logo.png" alt="header-logo">
+                    </div>
+                    <div class="header-unorderlist">
+                        <ul>
+                            <li>
+                                <a href="#" class="header-list">
+                                    <span> Home</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        class="icon icon-tabler icons-tabler-outline icon-tabler-chevron-down">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                        <path d="M6 9l6 6l6 -6" />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="header-list">
+                                    <span> About</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="header-list">
+                                    <span> Schedule</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        class="icon icon-tabler icons-tabler-outline icon-tabler-chevron-down">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                        <path d="M6 9l6 6l6 -6" />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="header-list">
+                                    <span> Pages</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        class="icon icon-tabler icons-tabler-outline icon-tabler-chevron-down">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                        <path d="M6 9l6 6l6 -6" />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="header-list">
+                                    <span> Speakers</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        class="icon icon-tabler icons-tabler-outline icon-tabler-chevron-down">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                        <path d="M6 9l6 6l6 -6" />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="header-list">
+                                    <span> Blog</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        class="icon icon-tabler icons-tabler-outline icon-tabler-chevron-down">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                        <path d="M6 9l6 6l6 -6" />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="header-list">
+                                    <span> Contact</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <button type="button" class="menu" id="openModal">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round"
+                                class="icon icon-tabler icons-tabler-outline icon-tabler-menu-2">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <path d="M4 6l16 0" />
+                                <path d="M4 12l16 0" />
+                                <path d="M4 18l16 0" />
+                            </svg>
+                        </button>
+                        <a href="#" class="header-search">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round"
+                                class="icon icon-tabler icons-tabler-outline icon-tabler-search">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
+                                <path d="M21 21l-6 -6" />
+                            </svg>
+                        </a>
+                        <button type="button" class="header-open" id="openModals">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round"
+                                class="icon icon-tabler icons-tabler-outline icon-tabler-menu-deep">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <path d="M4 6h16" />
+                                <path d="M7 12h13" />
+                                <path d="M10 18h10" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="report" id="report-modal">
+        <div class="close-icons" id="close-modal">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="icon icon-tabler icons-tabler-outline icon-tabler-x">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path d="M18 6l-12 12" />
+                <path d="M6 6l12 12" />
+            </svg>
+        </div>
+        <div class="reports-contents">
+            <div class="reports-logo">
+                <img src="assests/images/logo/logo.png" alt="reports-logo">
+            </div>
+            <ul class="reports-unorderlist">
+                <li>
+                    <a href="#" class="reports-list">Home</a>
+                </li>
+                <li>
+                    <a href="#" class="reports-list">About</a>
+                </li>
+                <li>
+                    <a href="#" class="reports-list">Schedule</a>
+                </li>
+                <li>
+                    <a href="#" class="reports-list">Pages</a>
+                </li>
+                <li>
+                    <a href="#" class="reports-list">Speakers</a>
+                </li>
+                <li>
+                    <a href="#" class="reports-list">Blog</a>
+                </li>
+                <li>
+                    <a href="#" class="reports-list">Contact</a>
+                </li>
+            </ul>
+            <div class="reports-details">
+                <a href="mailto:info@example.com" class="reports-mail">
+                    <div class="reports-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            fill="currentColor" class="icon icon-tabler icons-tabler-filled icon-tabler-mail">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path
+                                d="M22 7.535v9.465a3 3 0 0 1 -2.824 2.995l-.176 .005h-14a3 3 0 0 1 -2.995 -2.824l-.005 -.176v-9.465l9.445 6.297l.116 .066a1 1 0 0 0 .878 0l.116 -.066l9.445 -6.297z" />
+                            <path
+                                d="M19 4c1.08 0 2.027 .57 2.555 1.427l-9.555 6.37l-9.555 -6.37a2.999 2.999 0 0 1 2.354 -1.42l.201 -.007h14z" />
+                        </svg>
+                    </div>
+                    <h5 class="reports-mail-detail">
+                        info@example.com
+                    </h5>
+                </a>
+                <a href="tel: +2 123 654 7898" class="reports-mail">
+                    <div class="reports-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="24" viewBox="0 0 24 24"
+                            fill="currentColor" class="icon icon-tabler icons-tabler-filled icon-tabler-phone">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path
+                                d="M9 3a1 1 0 0 1 .877 .519l.051 .11l2 5a1 1 0 0 1 -.313 1.16l-.1 .068l-1.674 1.004l.063 .103a10 10 0 0 0 3.132 3.132l.102 .062l1.005 -1.672a1 1 0 0 1 1.113 -.453l.115 .039l5 2a1 1 0 0 1 .622 .807l.007 .121v4c0 1.657 -1.343 3 -3.06 2.998c-8.579 -.521 -15.418 -7.36 -15.94 -15.998a3 3 0 0 1 2.824 -2.995l.176 -.005h4z" />
+                        </svg>
+                    </div>
+                    <h5 class="reports-mail-detail">
+                        +2 123 654 7898
+                    </h5>
+                </a>
+            </div>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/" class="facebook">
+                    <svg id="Group_2573" data-name="Group 2573" xmlns="http://www.w3.org/2000/svg" width="13.699"
+                        height="20.354" viewBox="0 0 13.699 29.354">
+                        <path id="Path_3" data-name="Path 3"
+                            d="M965.764,512.9v4.04H962.8v4.942h2.961v14.687h6.082V521.888h4.081s.383-2.369.568-4.961h-4.626v-3.379a1.434,1.434,0,0,1,1.319-1.183H976.5v-5.145H972c-6.381,0-6.231,4.947-6.231,5.685Zm0,0"
+                            transform="translate(-962.803 -507.219)" fill="currentColor"></path>
+                    </svg>
+                </a>
+                <a href="https://x.com/?lang=en" class="twitter">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="icon icon-tabler icons-tabler-outline icon-tabler-brand-x">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M4 4l11.733 16h4.267l-11.733 -16z" />
+                        <path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772" />
+                    </svg>
+                </a>
+                <a href="https://in.linkedin.com/" class="linkedin">
+                    <svg id="Group_2572" data-name="Group 2572" xmlns="http://www.w3.org/2000/svg" width="20.962"
+                        height="24.765" viewBox="0 0 26.962 25.765">
+                        <path id="Path_12139" data-name="Path 12139"
+                            d="M1197.542,523.6v9.969h-5.78v-9.3c0-2.336-.834-3.93-2.926-3.93a3.161,3.161,0,0,0-2.966,2.114,3.976,3.976,0,0,0-.191,1.409v9.709H1179.9s.078-15.754,0-17.384h5.781v2.463c-.012.019-.028.038-.038.056h.038v-.056a5.739,5.739,0,0,1,5.209-2.872c3.8,0,6.654,2.485,6.654,7.824Zm-23.692-15.8a3.012,3.012,0,1,0-.076,6.007h.039a3.013,3.013,0,1,0,.037-6.007Zm-2.927,25.765h5.778V516.187h-5.778Zm0,0"
+                            transform="translate(-1170.58 -507.806)" fill="currentColor"></path>
+                    </svg>
+                </a>
+                <a href="https://www.youtube.com/" class="youtube">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="currentColor" class="icon icon-tabler icons-tabler-filled icon-tabler-brand-youtube">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path
+                            d="M18 3a5 5 0 0 1 5 5v8a5 5 0 0 1 -5 5h-12a5 5 0 0 1 -5 -5v-8a5 5 0 0 1 5 -5zm-9 6v6a1 1 0 0 0 1.514 .857l5 -3a1 1 0 0 0 0 -1.714l-5 -3a1 1 0 0 0 -1.514 .857z" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="reports" id="report-modals">
+        <div class="close-icon" id="close-modal">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="icon icon-tabler icons-tabler-outline icon-tabler-x">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path d="M18 6l-12 12" />
+                <path d="M6 6l12 12" />
+            </svg>
+        </div>
+        <div class="reports-content">
+            <div class="report-logo">
+                <img src="assests/images/logo/logo.png" alt="report-logo">
+            </div>
+            <h4 class="report-head">
+                About Us
+            </h4>
+            <p class="report-desc">
+                There are many variations of passages available sure there majority have suffered alteration in some
+                form by inject humour or randomised words which don't look even slightly believable.
+            </p>
+            <h4 class="report-title">
+                Contact Info
+            </h4>
+            <a href="mailto:info@example.com" class="report-mail-detail">
+                <h5 class="report-mail">
+                    Email
+                </h5>
+                <div class="report-mail-details">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="icon icon-tabler icons-tabler-outline icon-tabler-mail">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z" />
+                        <path d="M3 7l9 6l9 -6" />
+                    </svg>
+                    <h5 class="report-mails">
+                        info@example.com
+                    </h5>
+                </div>
+            </a>
+            <a href="tel:+2 123 654 7898" class="report-mail-detail">
+                <h5 class="report-mail">
+                    Phone
+                </h5>
+                <div class="report-mail-details">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="icon icon-tabler icons-tabler-outline icon-tabler-phone">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path
+                            d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
+                    </svg>
+                    <h5 class="report-mails">
+                        +2 123 654 7898
+                    </h5>
+                </div>
+            </a>
+            <a href="https://maps.app.goo.gl/rfcULCW4pJNMqU5F7" class="report-mail-detail">
+                <h5 class="report-mail">
+                    Address
+                </h5>
+                <div class="report-mail-details">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="icon icon-tabler icons-tabler-outline icon-tabler-map-pin">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
+                        <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
+                    </svg>
+                    <h5 class="report-mails">
+                        25/B Milford Road, New York
+                    </h5>
+                </div>
+            </a>
+            <h4 class="report-follow">
+                Follow Us
+            </h4>
+            <div class="report-social-icons">
+                <a href="https://www.facebook.com/" class="report-facebook">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="icon icon-tabler icons-tabler-outline icon-tabler-brand-facebook">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
+                    </svg>
+                </a>
+                <a href="https://x.com/?lang=en" class="report-twitter">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="icon icon-tabler icons-tabler-outline icon-tabler-brand-x">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M4 4l11.733 16h4.267l-11.733 -16z" />
+                        <path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772" />
+                    </svg>
+                </a>
+                <a href="https://www.instagram.com/accounts/login/?hl=en" class="report-instagram">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="icon icon-tabler icons-tabler-outline icon-tabler-brand-instagram">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M4 8a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" />
+                        <path d="M9 12a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
+                        <path d="M16.5 7.5v.01" />
+                    </svg>
+                </a>
+                <a href="https://in.linkedin.com/" class="report-linkedin">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="currentColor" class="icon icon-tabler icons-tabler-filled icon-tabler-brand-linkedin">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path
+                            d="M17 2a5 5 0 0 1 5 5v10a5 5 0 0 1 -5 5h-10a5 5 0 0 1 -5 -5v-10a5 5 0 0 1 5 -5zm-9 8a1 1 0 0 0 -1 1v5a1 1 0 0 0 2 0v-5a1 1 0 0 0 -1 -1m6 0a3 3 0 0 0 -1.168 .236l-.125 .057a1 1 0 0 0 -1.707 .707v5a1 1 0 0 0 2 0v-3a1 1 0 0 1 2 0v3a1 1 0 0 0 2 0v-3a3 3 0 0 0 -3 -3m-6 -3a1 1 0 0 0 -.993 .883l-.007 .127a1 1 0 0 0 1.993 .117l.007 -.127a1 1 0 0 0 -1 -1" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hero section  -->
+    <section class="hero">
+        <img src="assests/images/sections/slider-3.jpg" alt="hero">
+        <div class="hero-scroll-box">
+            <div class="hero-scroll">
+                <div class="scroller"></div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="hero-inner">
+                <div class="hero-details">
+                    <h4 class="hero-head">
+                        25
+                    </h4>
+                    <div class="hero-detail">
+                        <h5 class="hero-title">
+                            MAY 2024
+                        </h5>
+                        <p class="hero-desc">
+                            25/B Milford Road, New York, USA
+                        </p>
+                    </div>
+                </div>
+                <h2 class="hero-heading">
+                    <strong>DIGITAL WORLD </strong> <br> CONFERENCE <strong>MEETUP</strong>
+                </h2>
+                <p class="hero-description">
+                    There are many variations of passages available but the majority have
+                    suffered alteration in some form by injected humour.
+                </p>
+                <div class="hero-anchors">
+                    <a href="#" class="hero-buy-a">
+                        <span> Buy Ticket </span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"
+                            class="icon icon-tabler icons-tabler-outline icon-tabler-arrow-up-right">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M17 7l-10 10" />
+                            <path d="M8 7l9 0l0 9" />
+                        </svg>
+                    </a>
+                    <a href="#" class="learnmore-a">
+                        <span> Learn More</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"
+                            class="icon icon-tabler icons-tabler-outline icon-tabler-arrow-up-right">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M17 7l-10 10" />
+                            <path d="M8 7l9 0l0 9" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="assests/js/main.js"></script>
 </body>
+
 </html>
