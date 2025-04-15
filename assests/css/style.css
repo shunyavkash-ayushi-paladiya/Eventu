@@ -14,6 +14,11 @@
     --purple: #8a52fd;
 }
 
+::selection{
+    background-color: #555555;
+    color: var(--white);
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -969,7 +974,6 @@ select option {
     width: 450px;
     aspect-ratio: 1;
     object-fit: cover;
-    margin-left: 100px;
 }
 
 .img-1 img {
