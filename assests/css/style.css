@@ -335,11 +335,11 @@ select option {
 .reports-content {
     background-color: var(--white);
     width: 80%;
-    max-width: 430px;
+    max-width: 350px;
     height: 100vh;
-    transform: translateX(100);
-    transition: transform 0.3s ease-in-out;
-    padding: 40px;
+    transform: translateX(100%);
+    transition: all 0.3s ease-in-out;
+    padding: 80px 20px;
     overflow-y: auto;
 }
 
@@ -348,8 +348,8 @@ select option {
     opacity: 1;
 }
 
-.report.show .reports-content {
-    transform: translateX(0%);
+.reports.show .reports-content {
+    transform: translateX(0);
 }
 
 .report-logo {
@@ -1942,6 +1942,7 @@ select option {
     text-transform: capitalize;
     margin-bottom: 20px;
     font-family: "Roboto", sans-serif;
+    text-align: center;
 }
 
 .join-title p {
@@ -2032,5 +2033,8 @@ select option {
     padding-block: 70px;
 }
 .slider-title{
-    font-size: 20px;
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--dark-pink);
+    letter-spacing: 2px;
 }

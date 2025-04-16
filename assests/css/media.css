@@ -232,4 +232,8 @@
     .speaker-cards {
         grid-template-columns: repeat(1, 1fr);
     }
+
+    .join-title h2 {
+        font-size: 36px;
+    }
 }
