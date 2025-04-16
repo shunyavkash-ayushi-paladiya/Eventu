@@ -77,3 +77,64 @@ function updateCountdown() {
 }
 
 setInterval(updateCountdown, 1000);
+
+document.addEventListener("DOMContentLoaded", function () {
+    const tabs = document.querySelectorAll(".schedule-a");
+    const forms = document.querySelectorAll(".schedule-items");
+
+    if (tabs.length === 0 || forms.length === 0) {
+        return;
+    }
+
+    tabs.forEach(tab => {
+        tab.addEventListener("click", function (e) {
+            e.preventDefault();
+
+            const target = this.getAttribute("data-target");
+            const targetForm = document.getElementById(target);
+
+            if (!targetForm) {
+                console.error(`No element found with id: ${target}`);
+                return;
+            }
+
+            tabs.forEach(t => t.classList.remove("active"));
+            forms.forEach(form => form.classList.remove("active"));
+
+            this.classList.add("active");
+            targetForm.classList.add("active");
+        });
+    });
+    if (tabs[0] && forms[0]) {
+        tabs[0].classList.add("active");
+        forms[0].classList.add("active");
+    }
+});
+  
+  const counters = document.querySelectorAll(".count");
+  const options = {
+    threshold: 0.6, 
+  };
+  const runCounter = (counter) => {
+    let startNumber = 0;
+    const endNumber = +counter.getAttribute("data-number");
+    const interval = setInterval(() => {
+      startNumber++;
+      counter.innerText = startNumber;
+      if (startNumber >= endNumber) {
+        clearInterval(interval);
+      }
+    }, 30); 
+  };
+  const observer = new IntersectionObserver((entries, observer) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        runCounter(entry.target);
+        observer.unobserve(entry.target); 
+      }
+    });
+  }, options);
+  counters.forEach((counter) => {
+    observer.observe(counter);
+  });
+  

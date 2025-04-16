@@ -1,3 +1,9 @@
+@media screen and (max-width:1199px) {
+    .speaker-cards {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
 @media screen and (max-width:1024px) {
     .header-unorderlist ul {
         display: none;
@@ -11,8 +17,91 @@
         display: block;
     }
 
-    .about-inner{
+    .about-inner {
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    .card-main {
+        width: 33.33%;
+    }
+
+    .play-btn {
+        margin-top: 60px;
+    }
+
+    .video-inner {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .inspire-inner {
+        flex-direction: column;
+        gap: 50px;
+        align-items: flex-start;
+    }
+
+    .inspire-title {
+        max-width: none;
+    }
+
+    .inspire-desc {
+        max-width: none;
+    }
+
+    .schedule-count,
+    .schedule-items::before {
+        display: none;
+    }
+
+    .pricing-cards {
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 20px;
+        column-gap: 30px;
+    }
+
+    .speaker-cards {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width:991px) {
+    .schedule-items-content {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .schedule-img img {
+        width: 100%;
+        object-fit: contain;
+        max-width: none;
+    }
+
+    .schedule-img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .card-main {
+        width: 50%;
+    }
+
+    .inspire-right {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .pricing-cards {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .speaker-cards {
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 0px;
+        margin-right: 0px;
     }
 }
 
@@ -70,16 +159,77 @@
         width: 303px;
     }
 
-    .about-3 img{
+    .about-3 img {
         width: 132px;
     }
 
-    .img-1 img{
+    .img-1 img {
         width: 137px;
     }
 
-    .shdow-text h4{
+    .shdow-text h4 {
         font-size: 47px;
     }
 
+    .card-main {
+        width: 100%;
+    }
+
+    .video-items h2 {
+        font-size: 35px;
+        padding-top: 16px;
+    }
+
+    .video-items h3 {
+        font-size: 17px;
+    }
+
+    .side-label {
+        margin-left: 0;
+    }
+
+    .inspire-card-desc {
+        white-space: inherit;
+    }
+
+    .inspire-title {
+        font-size: 34px;
+    }
+
+    .schedule-inner {
+        flex-direction: column;
+    }
+
+    .schedule-bottom {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .schedule-speaker {
+        flex-direction: column;
+    }
+
+    .schedule-bottom .theme-btn {
+        display: inline-flex;
+        margin-top: 40px;
+        justify-content: center;
+    }
+
+    .schedule-content ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .our-schedule-title h2 {
+        font-size: 38px;
+    }
+
+    .pricing-head {
+        max-width: none;
+        font-size: 40px;
+    }
+
+    .speaker-cards {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
