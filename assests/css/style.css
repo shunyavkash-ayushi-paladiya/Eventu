@@ -433,6 +433,7 @@ select option {
     padding: 10px;
     border-radius: 30px;
     transition: all 0.3s ease-in-out;
+    display:flex;
 }
 
 .report-facebook:hover {
@@ -450,6 +451,7 @@ select option {
     padding: 10px;
     border-radius: 30px;
     transition: all 0.3s ease-in-out;
+    display:flex;
 }
 
 .report-twitter:hover {
@@ -467,6 +469,7 @@ select option {
     padding: 10px;
     border-radius: 30px;
     transition: all 0.3s ease-in-out;
+    display:flex;
 }
 
 .report-instagram:hover {
@@ -484,6 +487,7 @@ select option {
     padding: 10px;
     border-radius: 30px;
     transition: all 0.3s ease-in-out;
+    display: flex;
 }
 
 .report-linkedin:hover {
@@ -597,6 +601,7 @@ select option {
     border-radius: 30px;
     padding: 10px;
     transition: all 0.3s ease-in-out;
+    display: flex;
 }
 
 .reports-icon svg {
@@ -628,6 +633,7 @@ select option {
     background-color: var(--dark-pink);
     border-radius: 30px;
     padding: 10px;
+    display: flex;
 }
 
 .twitter svg {
@@ -640,6 +646,7 @@ select option {
     background-color: var(--dark-pink);
     border-radius: 30px;
     padding: 10px;
+    display: flex;
 }
 
 .linkedin svg {
@@ -652,6 +659,7 @@ select option {
     background-color: var(--dark-pink);
     border-radius: 30px;
     padding: 10px;
+    display: flex;
 }
 
 .youtube svg {
@@ -664,6 +672,7 @@ select option {
     background-color: var(--dark-pink);
     border-radius: 30px;
     padding: 10px;
+    display: flex;
 }
 
 /* hero section  */
@@ -1891,6 +1900,7 @@ select option {
 .speakers-details {
     margin-top: 15px;
     margin-left: 15px;
+    text-align: center;
 }
 
 .speakers-head {
