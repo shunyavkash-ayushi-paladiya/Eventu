@@ -138,3 +138,17 @@ document.addEventListener("DOMContentLoaded", function () {
     observer.observe(counter);
   });
   
+
+  var swiper = new Swiper(".reviewSwiper", {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      loop:true,
+      autoplay:{
+        delay:2000,
+      },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable:true,
+      dynamicBullets: true,
+    },
+  });
