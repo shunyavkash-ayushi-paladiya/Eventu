@@ -2241,3 +2241,26 @@ div#swiper-wrapper-afb51717510d295c4 {
         transform: rotate(90deg);
         margin-left: -350px;
     }
+
+    .form-sec{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .form-date-input{
+        background-color: #eed5d7;
+        width: 100%;
+        height: 44px;
+        padding: 20px;
+        border: none;
+        outline: none;
+        color: #512729;
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    form{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 10px;
+    }
